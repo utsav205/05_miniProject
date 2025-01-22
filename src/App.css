@@ -1,0 +1,36 @@
+body{
+  background-color: black;
+  color: #ffffff;
+}
+
+ul{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+}
+ul li{
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 30px;
+  /* background-color: #f1f1ed; */
+  padding: 6px;
+  border-radius: 10%;
+}
+
+.main{
+ background-color: #daaa8f; 
+ border: #ffffff;
+ border-radius: 10px;
+ max-height: 1000px;
+ padding: 10px;
+ margin: 15px;
+ align-items: center;
+ justify-items: center;
+}
+
+.context{
+  color: #e6e4d1;
+}

@@ -1,0 +1,66 @@
+body{
+  background-color: antiquewhite;
+  color: black;
+}
+
+.App {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .note-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .note-input input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 300px;
+    font-size: 16px;
+  }
+  
+  .note-input button {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .notes-list {
+    margin-top: 20px;
+  }
+  
+  .note {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .note p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .note small {
+    color: #777;
+    font-size: 12px;
+  }
+  
+  .note button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
